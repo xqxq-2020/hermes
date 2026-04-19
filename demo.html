@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语宝 × Hermes Agent - 下一代教育AI演示</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Noto Sans SC', sans-serif;
+                background: #0a0e1a;
+                color: #e2e8f0;
+                overflow-x: hidden;
+            }
+            .font-mono { font-family: 'JetBrains Mono', monospace; }
+        }
+        @layer components {
+            .glass-panel {
+                background: rgba(15, 23, 42, 0.7);
+                backdrop-filter: blur(12px);
+                border: 1px solid rgba(99, 102, 241, 0.15);
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            }
+            .neon-border {
+                position: relative;
+            }
+            .neon-border::after {
+                content: '';
+                position: absolute;
+                inset: -1px;
+                border-radius: inherit;
+                background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+                opacity: 0.3;
+                z-index: -1;
+                filter: blur(8px);
+            }
+            .glow-text {
+                text-shadow: 0 0 20px rgba(99, 102, 241, 0.5), 0 0 40px rgba(168, 85, 247, 0.3);
+            }
+            .layer-perception { background: linear-gradient(135deg, rgba(56, 189, 248, 0.1), rgba(59, 130, 246, 0.05)); border-color: rgba(56, 189, 248, 0.3); }
+            .layer-cognition { background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(139, 92, 246, 0.05)); border-color: rgba(168, 85, 247, 0.3); }
+            .layer-action { background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(244, 63, 94, 0.05)); border-color: rgba(236, 72, 153, 0.3); }
+            
+            .memory-l1 { border-left: 3px solid #f59e0b; }
+            .memory-l2 { border-left: 3px solid #3b82f6; }
+            .memory-l3 { border-left: 3px solid #10b981; }
+            .memory-l4 { border-left: 3px solid #8b5cf6; }
+            
+            .phone-mockup {
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255,255,255,0.1);
+                background: #000;
+            }
+            
+            @keyframes pulse-glow {
+                0%, 100% { opacity: 0.4; }
+                50% { opacity: 1; }
+            }
+            .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+            
+            @keyframes slide-up {
+                from { transform: translateY(20px); opacity: 0; }
+                to { transform: translateY(0); opacity: 1; }
+            }
+            .animate-slide-up { animation: slide-up 0.5s ease-out forwards; }
+            
+            @keyframes flow-dash {
+                to { stroke-dashoffset: -20; }
+            }
+            .flow-line { stroke-dasharray: 5 5; animation: flow-dash 1s linear infinite; }
+            
+            .code-block {
+                background: rgba(0, 0, 0, 0.5);
+                border: 1px solid rgba(99, 102, 241, 0.2);
+            }
+            
+            .skill-node {
+                transition: all 0.3s ease;
+            }
+            .skill-node:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-indigo-500/20">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <img src="logo.jpg" alt="英语宝 logo" class="w-10 h-10 rounded-xl object-cover border border-indigo-500/20">
+                <div>
+                    <h1 class="text-xl font-bold tracking-tight glow-text">英语宝 × Hermes Agent</h1>
+                    <p class="text-xs text-slate-400">真实学情数据驱动的自进化教学演示</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-xs text-indigo-300">
+                    <span class="inline-block w-2 h-2 rounded-full bg-indigo-400 animate-pulse mr-2"></span>
+                    Live Demo
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="fixed left-0 top-20 bottom-0 w-64 glass-panel border-r border-indigo-500/10 z-40 overflow-y-auto">
+        <div class="p-6 space-y-2">
+            <button onclick="showSection('architecture')" class="nav-btn w-full text-left px-4 py-3 rounded-xl transition-all duration-300 hover:bg-indigo-500/10 border border-transparent hover:border-indigo-500/30 group active" data-section="architecture">
+                <div class="flex items-center gap-3">
+                    <span class="text-xl group-hover:scale-110 transition-transform">🏗️</span>
+                    <div>
+                        <div class="font-medium text-sm">架构总览</div>
+                        <div class="text-xs text-slate-500">数据到行动</div>
+                    </div>
+                </div>
+            </button>
+            
+            <button onclick="showSection('memory')" class="nav-btn w-full text-left px-4 py-3 rounded-xl transition-all duration-300 hover:bg-indigo-500/10 border border-transparent hover:border-indigo-500/30 group" data-section="memory">
+                <div class="flex items-center gap-3">
+                    <span class="text-xl group-hover:scale-110 transition-transform">🧠</span>
+                    <div>
+                        <div class="font-medium text-sm">四层记忆</div>
+                        <div class="text-xs text-slate-500">证据如何沉淀</div>
+                    </div>
+                </div>
+            </button>
+            
+            <button onclick="showSection('teaching')" class="nav-btn w-full text-left px-4 py-3 rounded-xl transition-all duration-300 hover:bg-indigo-500/10 border border-transparent hover:border-indigo-500/30 group" data-section="teaching">
+                <div class="flex items-center gap-3">
+                    <span class="text-xl group-hover:scale-110 transition-transform">📚</span>
+                    <div>
+                        <div class="font-medium text-sm">练习包</div>
+                        <div class="text-xs text-slate-500">听力+单词+绘本</div>
+                    </div>
+                </div>
+            </button>
+            
+            <button onclick="showSection('evolution')" class="nav-btn w-full text-left px-4 py-3 rounded-xl transition-all duration-300 hover:bg-indigo-500/10 border border-transparent hover:border-indigo-500/30 group" data-section="evolution">
+                <div class="flex items-center gap-3">
+                    <span class="text-xl group-hover:scale-110 transition-transform">🌱</span>
+                    <div>
+                        <div class="font-medium text-sm">自进化演示</div>
+                        <div class="text-xs text-slate-500">闭环写回</div>
+                    </div>
+                </div>
+            </button>
+            
+            <button onclick="showSection('scheduling')" class="nav-btn w-full text-left px-4 py-3 rounded-xl transition-all duration-300 hover:bg-indigo-500/10 border border-transparent hover:border-indigo-500/30 group" data-section="scheduling">
+                <div class="flex items-center gap-3">
+                    <span class="text-xl group-hover:scale-110 transition-transform">⚡</span>
+                    <div>
+                        <div class="font-medium text-sm">端侧调度</div>
+                        <div class="text-xs text-slate-500">模型动态加载</div>
+                    </div>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="ml-64 pt-20 min-h-screen">
+        <!-- Architecture Section -->
+        <section id="architecture" class="section-content p-8 max-w-6xl">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-2">真实数据驱动的 Hermes Agent 闭环</h2>
+                <p class="text-slate-400">从 976 条口语评测和 3 类资源库出发，自动生成下一轮听力、单词、绘本组合练习</p>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-5 gap-4 mb-8" id="real-data-metrics">
+                <div class="glass-panel rounded-xl p-4 border border-cyan-500/20">
+                    <div class="text-xs text-slate-500 mb-1">口语记录</div>
+                    <div class="text-2xl font-bold text-cyan-300" id="metric-oral">976</div>
+                    <div class="text-xs text-slate-500 mt-1">2026-04-07 至 2026-04-09</div>
+                </div>
+                <div class="glass-panel rounded-xl p-4 border border-amber-500/20">
+                    <div class="text-xs text-slate-500 mb-1">日均趋势</div>
+                    <div class="text-2xl font-bold text-amber-300" id="metric-trend">75.23 → 63.88</div>
+                    <div class="text-xs text-slate-500 mt-1">句子级任务明显下滑</div>
+                </div>
+                <div class="glass-panel rounded-xl p-4 border border-purple-500/20">
+                    <div class="text-xs text-slate-500 mb-1">教材词汇</div>
+                    <div class="text-2xl font-bold text-purple-300" id="metric-vocab">148</div>
+                    <div class="text-xs text-slate-500 mt-1">10 名学习者</div>
+                </div>
+                <div class="glass-panel rounded-xl p-4 border border-pink-500/20">
+                    <div class="text-xs text-slate-500 mb-1">四年级资源</div>
+                    <div class="text-2xl font-bold text-pink-300" id="metric-resources">4,950</div>
+                    <div class="text-xs text-slate-500 mt-1">听力+单词+绘本</div>
+                </div>
+                <div class="glass-panel rounded-xl p-4 border border-emerald-500/20">
+                    <div class="text-xs text-slate-500 mb-1">练习包</div>
+                    <div class="text-2xl font-bold text-emerald-300" id="metric-pack">3×8×5</div>
+                    <div class="text-xs text-slate-500 mt-1">听力/单词/绘本</div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+                <!-- Perception Layer -->
+                <div class="layer-perception glass-panel rounded-2xl p-6 border relative overflow-hidden group cursor-pointer" onclick="toggleLayerDetail('perception')">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center text-2xl">👁️</div>
+                        <div>
+                            <h3 class="font-bold text-cyan-300">感知层 Perception</h3>
+                            <p class="text-xs text-cyan-400/70">读取评测、教材和资源目录</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-cyan-500/5 border border-cyan-500/10">
+                            <span class="text-cyan-400">●</span>
+                            <span>260410_评测记录.csv</span>
+                        </div>
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-cyan-500/5 border border-cyan-500/10">
+                            <span class="text-cyan-400">●</span>
+                            <span>260416_湘少四年级上册.csv</span>
+                        </div>
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-cyan-500/5 border border-cyan-500/10">
+                            <span class="text-cyan-400">●</span>
+                            <span>听力/单词/绘本资源库</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cognition Layer -->
+                <div class="layer-cognition glass-panel rounded-2xl p-6 border relative overflow-hidden group cursor-pointer" onclick="toggleLayerDetail('cognition')">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center text-2xl">🧠</div>
+                        <div>
+                            <h3 class="font-bold text-purple-300">决策层 Cognition</h3>
+                            <p class="text-xs text-purple-400/70">区分证据、推断和资源信号</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-purple-500/5 border border-purple-500/10">
+                            <span class="text-purple-400">●</span>
+                            <span>个人弱项: dh / s / uh / z</span>
+                        </div>
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-purple-500/5 border border-purple-500/10">
+                            <span class="text-purple-400">●</span>
+                            <span>班级迁移弱词: flower / these</span>
+                        </div>
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-purple-500/5 border border-purple-500/10">
+                            <span class="text-purple-400">●</span>
+                            <span>年级定位: 四年级上册</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Layer -->
+                <div class="layer-action glass-panel rounded-2xl p-6 border relative overflow-hidden group cursor-pointer" onclick="toggleLayerDetail('action')">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-pink-500/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-pink-500/20 flex items-center justify-center text-2xl">⚡</div>
+                        <div>
+                            <h3 class="font-bold text-pink-300">执行层 Action</h3>
+                            <p class="text-xs text-pink-400/70">拼出可直接执行的组合练习</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-pink-500/5 border border-pink-500/10">
+                            <span class="text-pink-400">●</span>
+                            <span>听力识别: The School Garden</span>
+                        </div>
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-pink-500/5 border border-pink-500/10">
+                            <span class="text-pink-400">●</span>
+                            <span>词汇回忆: between / garden</span>
+                        </div>
+                        <div class="flex items-center gap-2 p-2 rounded-lg bg-pink-500/5 border border-pink-500/10">
+                            <span class="text-pink-400">●</span>
+                            <span>绘本迁移: Our Garden</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Flow Diagram -->
+            <div class="glass-panel rounded-2xl p-6 border border-indigo-500/20">
+                <h3 class="font-bold mb-4 text-lg">真实数据流交互演示</h3>
+                <div class="relative h-64 bg-slate-900/50 rounded-xl overflow-hidden" id="flowCanvas">
+                    <svg class="absolute inset-0 w-full h-full" id="flowSvg">
+                        <!-- Connections will be drawn by JS -->
+                    </svg>
+                    <div class="absolute top-4 left-1/4 -translate-x-1/2 px-4 py-2 rounded-lg bg-cyan-500/20 border border-cyan-500/30 text-xs text-center" id="node-perception">
+                        评测输入
+                        <div class="text-cyan-300 font-mono mt-1">976 rows</div>
+                    </div>
+                    <div class="absolute top-4 left-2/4 -translate-x-1/2 px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-500/30 text-xs text-center" id="node-cognition">
+                        学情判断
+                        <div class="text-purple-300 font-mono mt-1">dh / s / z</div>
+                    </div>
+                    <div class="absolute top-4 left-3/4 -translate-x-1/2 px-4 py-2 rounded-lg bg-pink-500/20 border border-pink-500/30 text-xs text-center" id="node-action">
+                        练习包
+                        <div class="text-pink-300 font-mono mt-1">3 + 8 + 5</div>
+                    </div>
+                    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-xs text-center" id="node-memory">
+                        写回建议
+                        <div class="text-emerald-300 font-mono mt-1">MEMORY + USER</div>
+                    </div>
+                </div>
+                <div class="mt-4 flex justify-center">
+                    <button onclick="startFlowAnimation()" class="px-6 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 transition-colors text-sm font-medium">
+                        ▶ 运行动画演示
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memory Section -->
+        <section id="memory" class="section-content p-8 max-w-6xl hidden">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-2">四层记忆系统：从真实证据到可复用策略</h2>
+                <p class="text-slate-400">个人口语评测、班级教材词汇和资源目录分层处理，避免把资源库误当成学生表现</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- L1 -->
+                <div class="memory-l1 glass-panel rounded-xl p-5 border border-amber-500/20 hover:border-amber-500/40 transition-all cursor-pointer" onclick="showMemoryDetail('l1')">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <div class="text-xs text-amber-400 font-mono mb-1">L1</div>
+                            <h3 class="font-bold text-amber-300">提示词记忆 Prompt Memory</h3>
+                        </div>
+                        <div class="text-xs bg-amber-500/10 text-amber-300 px-2 py-1 rounded">冻结快照</div>
+                    </div>
+                    <div class="code-block rounded-lg p-3 font-mono text-xs space-y-1 text-slate-300">
+                        <div class="text-amber-400">// MEMORY.md</div>
+                        <div>策略: 发音优先 + 句型迁移</div>
+                        <div>边界: 个人证据 ≠ 班级模式</div>
+                        <div>规则: 资源库只用于选练习</div>
+                        <div class="text-amber-400 mt-2">// USER.md</div>
+                        <div>学习者: AZUQR...FTG</div>
+                        <div>口语记录: 976条 / 3天</div>
+                        <div>当前焦点: dh / s / uh / z</div>
+                    </div>
+                    <div class="mt-3 text-xs text-slate-500">容量: ≤3575字符 | 每次启动加载</div>
+                </div>
+
+                <!-- L2 -->
+                <div class="memory-l2 glass-panel rounded-xl p-5 border border-blue-500/20 hover:border-blue-500/40 transition-all cursor-pointer" onclick="showMemoryDetail('l2')">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <div class="text-xs text-blue-400 font-mono mb-1">L2</div>
+                            <h3 class="font-bold text-blue-300">会话归档 Session Archive</h3>
+                        </div>
+                        <div class="text-xs bg-blue-500/10 text-blue-300 px-2 py-1 rounded">冷数据</div>
+                    </div>
+                    <div class="code-block rounded-lg p-3 font-mono text-xs space-y-1 text-slate-300">
+                        <div class="text-blue-400">// SQLite + FTS5</div>
+                        <div>2026-04-07 ~ 2026-04-09</div>
+                        <div>平均总分: 71.90</div>
+                        <div>趋势: 75.23 → 72.63 → 63.88</div>
+                        <div>弱词: between / This / students</div>
+                        <div>弱音: dh / s / uh / z / ng</div>
+                        <div class="text-blue-400 mt-1">// LLM摘要</div>
+                        <div>"从短词到句子级任务时</div>
+                        <div>准确率下降，需要窄焦点纠正"</div>
+                    </div>
+                    <div class="mt-3 text-xs text-slate-500">按需检索 | 不全量加载</div>
+                </div>
+
+                <!-- L3 -->
+                <div class="memory-l3 glass-panel rounded-xl p-5 border border-emerald-500/20 hover:border-emerald-500/40 transition-all cursor-pointer" onclick="showMemoryDetail('l3')">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <div class="text-xs text-emerald-400 font-mono mb-1">L3</div>
+                            <h3 class="font-bold text-emerald-300">技能记忆 Skill Memory</h3>
+                        </div>
+                        <div class="text-xs bg-emerald-500/10 text-emerald-300 px-2 py-1 rounded">程序性记忆</div>
+                    </div>
+                    <div class="code-block rounded-lg p-3 font-mono text-xs space-y-1 text-slate-300">
+                        <div class="text-emerald-400">// student-self-evolution</div>
+                        <div>触发: 新评测/新资源入库</div>
+                        <div>步骤1: 分离个人与班级证据</div>
+                        <div>步骤2: 抽取弱音和弱词</div>
+                        <div>步骤3: 匹配听力+单词+绘本</div>
+                        <div>步骤4: 生成写回建议</div>
+                        <div class="text-emerald-400 mt-1">// Patch_v1.1</div>
+                        <div>+ 推荐练习包章节</div>
+                    </div>
+                    <div class="mt-3 text-xs text-slate-500">触发: 新证据入库 | 补丁迭代</div>
+                </div>
+
+                <!-- L4 -->
+                <div class="memory-l4 glass-panel rounded-xl p-5 border border-violet-500/20 hover:border-violet-500/40 transition-all cursor-pointer" onclick="showMemoryDetail('l4')">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <div class="text-xs text-violet-400 font-mono mb-1">L4</div>
+                            <h3 class="font-bold text-violet-300">外部记忆 External</h3>
+                        </div>
+                        <div class="text-xs bg-violet-500/10 text-violet-300 px-2 py-1 rounded">深度建模</div>
+                    </div>
+                    <div class="code-block rounded-lg p-3 font-mono text-xs space-y-1 text-slate-300">
+                        <div class="text-violet-400">// 长期用户画像</div>
+                        <div>听力库: 2211行 / 四年级675行</div>
+                        <div>单词库: 10278行 / 四年级3807行</div>
+                        <div>绘本库: 757本 / fourGrade 468本</div>
+                        <div>推荐: Our Garden / Bees and Flowers</div>
+                        <div class="text-violet-400 mt-1">// 选材边界</div>
+                        <div>资源信号不写成学习结论</div>
+                    </div>
+                    <div class="mt-3 text-xs text-slate-500">可插拔扩展 | 家校协同</div>
+                </div>
+            </div>
+
+            <!-- Memory Flow -->
+            <div class="mt-6 glass-panel rounded-2xl p-6 border border-indigo-500/20">
+                <h3 class="font-bold mb-4">真实数据写入流程演示</h3>
+                <div class="flex items-center justify-between text-xs font-mono">
+                    <div class="flex flex-col items-center gap-2">
+                        <div class="w-16 h-16 rounded-full bg-cyan-500/20 border-2 border-cyan-500/50 flex items-center justify-center text-2xl">🎙️</div>
+                        <span class="text-cyan-300">CSV证据</span>
+                    </div>
+                    <div class="flex-1 h-px bg-gradient-to-r from-cyan-500/50 to-blue-500/50 mx-2 relative">
+                        <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-slate-900 px-2 text-slate-500">分类加载</div>
+                    </div>
+                    <div class="flex flex-col items-center gap-2">
+                        <div class="w-16 h-16 rounded-full bg-blue-500/20 border-2 border-blue-500/50 flex items-center justify-center text-2xl">💾</div>
+                        <span class="text-blue-300">诊断</span>
+                    </div>
+                    <div class="flex-1 h-px bg-gradient-to-r from-blue-500/50 to-emerald-500/50 mx-2 relative">
+                        <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-slate-900 px-2 text-slate-500">资源匹配</div>
+                    </div>
+                    <div class="flex flex-col items-center gap-2">
+                        <div class="w-16 h-16 rounded-full bg-emerald-500/20 border-2 border-emerald-500/50 flex items-center justify-center text-2xl">🧩</div>
+                        <span class="text-emerald-300">练习包</span>
+                    </div>
+                    <div class="flex-1 h-px bg-gradient-to-r from-emerald-500/50 to-amber-500/50 mx-2 relative">
+                        <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-slate-900 px-2 text-slate-500">稳定再写回</div>
+                    </div>
+                    <div class="flex flex-col items-center gap-2">
+                        <div class="w-16 h-16 rounded-full bg-amber-500/20 border-2 border-amber-500/50 flex items-center justify-center text-2xl">⚡</div>
+                        <span class="text-amber-300">下一轮课</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching Section -->
+        <section id="teaching" class="section-content p-8 max-w-6xl hidden">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-2">练习包实战：听力 → 单词 → 绘本迁移</h2>
+                <p class="text-slate-400">基于真实薄弱词 between / This / students 和班级弱迁移词 flower / these / garden 自动选材</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Traditional Mode -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2 mb-2">
+                        <div class="w-3 h-3 rounded-full bg-slate-500"></div>
+                        <h3 class="font-bold text-slate-400">传统模式：只看单次评分</h3>
+                    </div>
+                    <div class="phone-mockup rounded-[2.5rem] p-4 max-w-sm mx-auto border border-slate-800">
+                        <div class="bg-slate-900 rounded-[2rem] overflow-hidden h-[500px] flex flex-col">
+                            <div class="p-4 bg-slate-800 text-center text-sm font-medium">英语宝 - 口语评测</div>
+                            <div class="flex-1 p-6 flex flex-col items-center justify-center space-y-6">
+                                <div class="text-5xl font-bold text-white">between</div>
+                                <div class="text-xl text-slate-400">word score 26.67</div>
+                                <button class="w-16 h-16 rounded-full bg-indigo-600 flex items-center justify-center text-2xl" onclick="playTraditional()">🔊</button>
+                                <div class="text-sm text-slate-500">点击查看静态反馈</div>
+                                <div id="traditional-result" class="hidden w-full p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-center">
+                                    <div class="text-red-400 font-bold mb-1">低分词: between</div>
+                                    <div class="text-xs text-slate-400">只提示重练，未关联 dh / s / z 弱音，也未匹配资源库</div>
+                                    <button class="mt-3 px-4 py-2 rounded-lg bg-slate-700 text-xs">继续刷同类题</button>
+                                </div>
+                            </div>
+                            <div class="p-4 bg-slate-800">
+                                <div class="flex justify-between text-xs text-slate-500">
+                                    <span>记录: 1/976</span>
+                                    <span>资源联动: 无</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-sm text-slate-500">
+                        问题：知道哪道题低分，但不知道下一轮应该练什么
+                    </div>
+                </div>
+
+                <!-- Hermes Mode -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2 mb-2">
+                        <div class="w-3 h-3 rounded-full bg-indigo-500 animate-pulse"></div>
+                        <h3 class="font-bold text-indigo-300">Hermes模式：数据联动选材</h3>
+                    </div>
+                    <div class="phone-mockup rounded-[2.5rem] p-4 max-w-sm mx-auto border border-indigo-500/30 relative">
+                        <div class="absolute -top-3 -right-3 px-3 py-1 rounded-full bg-indigo-600 text-xs font-bold animate-pulse">AI Active</div>
+                        <div class="bg-slate-900 rounded-[2rem] overflow-hidden h-[500px] flex flex-col relative" id="hermes-phone">
+                            <div class="p-4 bg-indigo-900/30 border-b border-indigo-500/20 text-center text-sm font-medium flex items-center justify-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                英语宝 - 练习包生成
+                            </div>
+                            <div class="flex-1 p-6 flex flex-col items-center justify-center space-y-4" id="hermes-content">
+                                <div class="text-5xl font-bold text-white">garden</div>
+                                <div class="text-xl text-indigo-300">听力 + 单词 + 绘本</div>
+                                <div class="grid grid-cols-3 gap-2 w-full text-center text-xs">
+                                    <div class="p-2 rounded-lg bg-cyan-500/10 border border-cyan-500/20 text-cyan-300">3 个听力</div>
+                                    <div class="p-2 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-300">8 个单词</div>
+                                    <div class="p-2 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-300">5 本绘本</div>
+                                </div>
+                                <button class="w-16 h-16 rounded-full bg-indigo-600 hover:bg-indigo-500 transition-all flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/30" onclick="startHermesTeaching()">🎙️</button>
+                                <div class="text-sm text-slate-400">运行真实数据闭环</div>
+                            </div>
+                            <!-- Dynamic teaching steps will be injected here -->
+                            <div id="hermes-overlay" class="hidden absolute inset-0 bg-slate-900/95 p-6 flex flex-col">
+                                <div class="flex items-center gap-2 mb-4 text-sm text-indigo-300">
+                                    <span class="animate-spin">⚙️</span>
+                                    <span id="hermes-status">感知层：分析发音特征...</span>
+                                </div>
+                                <div class="flex-1 space-y-3 overflow-y-auto" id="hermes-steps">
+                                    <!-- Steps injected by JS -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-sm text-emerald-400">
+                        ✓ 识别弱项 → 匹配资源 → 生成练习包 → 形成写回建议
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
+                <div class="glass-panel rounded-xl p-5 border border-cyan-500/20">
+                    <div class="text-xs text-cyan-300 font-mono mb-2">LISTENING</div>
+                    <h3 class="font-bold mb-3">听力识别入口</h3>
+                    <div class="space-y-3 text-sm" id="listening-pack"></div>
+                </div>
+                <div class="glass-panel rounded-xl p-5 border border-amber-500/20">
+                    <div class="text-xs text-amber-300 font-mono mb-2">QUICK WORD</div>
+                    <h3 class="font-bold mb-3">单词回忆入口</h3>
+                    <div class="space-y-2 text-sm" id="word-pack"></div>
+                </div>
+                <div class="glass-panel rounded-xl p-5 border border-emerald-500/20">
+                    <div class="text-xs text-emerald-300 font-mono mb-2">PICTURE BOOK</div>
+                    <h3 class="font-bold mb-3">绘本迁移入口</h3>
+                    <div class="space-y-3 text-sm" id="book-pack"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Evolution Section -->
+        <section id="evolution" class="section-content p-8 max-w-6xl hidden">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-2">自进化机制：从 brief 到 MEMORY / USER 写回建议</h2>
+                <p class="text-slate-400">脚本先生成可审阅诊断，再把稳定结论沉淀成下一轮教学策略</p>
+            </div>
+
+            <div class="glass-panel rounded-2xl p-6 border border-emerald-500/20 mb-6">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="font-bold text-lg">真实闭合学习回路监控</h3>
+                    <div class="flex items-center gap-2 text-xs">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        <span class="text-emerald-300">evolution_brief.md 已生成</span>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="grid grid-cols-4 gap-4 mb-6">
+                    <div class="bg-slate-900/50 rounded-xl p-4 text-center">
+                        <div class="text-2xl font-bold text-cyan-400" id="stat-tasks">976</div>
+                        <div class="text-xs text-slate-500">个人口语记录</div>
+                    </div>
+                    <div class="bg-slate-900/50 rounded-xl p-4 text-center">
+                        <div class="text-2xl font-bold text-purple-400" id="stat-calls">5</div>
+                        <div class="text-xs text-slate-500">已识别数据源</div>
+                    </div>
+                    <div class="bg-slate-900/50 rounded-xl p-4 text-center">
+                        <div class="text-2xl font-bold text-amber-400" id="stat-success">71.9</div>
+                        <div class="text-xs text-slate-500">平均总分</div>
+                    </div>
+                    <div class="bg-slate-900/50 rounded-xl p-4 text-center">
+                        <div class="text-2xl font-bold text-emerald-400" id="stat-skills">1</div>
+                        <div class="text-xs text-slate-500">练习包生成</div>
+                    </div>
+                </div>
+
+                <!-- Timeline -->
+                <div class="relative">
+                    <div class="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500/50 via-purple-500/50 to-emerald-500/50"></div>
+                    <div class="space-y-4" id="evolution-timeline">
+                        <!-- Timeline items injected by JS -->
+                    </div>
+                </div>
+
+                <div class="mt-6 flex justify-center gap-3">
+                    <button onclick="simulateTeachingSession()" class="px-6 py-3 rounded-xl bg-cyan-600 hover:bg-cyan-500 transition-all text-sm font-medium flex items-center gap-2">
+                        <span>🎲</span> 推演下一轮
+                    </button>
+                    <button onclick="simulateBatchSessions()" class="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-500 transition-all text-sm font-medium flex items-center gap-2">
+                        <span>⚡</span> 批量推演10轮
+                    </button>
+                    <button onclick="triggerNudge()" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 transition-all text-sm font-medium flex items-center gap-2">
+                        <span>🌱</span> 触发写回复盘
+                    </button>
+                </div>
+            </div>
+
+            <!-- Skill Evolution Visualization -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="skill-library">
+                <div class="skill-node glass-panel rounded-xl p-4 border border-slate-700 opacity-50" id="skill-placeholder">
+                    <div class="text-center text-slate-600 py-8">
+                        <div class="text-3xl mb-2">🧩</div>
+                        <div class="text-sm">student-self-evolution</div>
+                        <div class="text-xs mt-1">已生成真实练习包</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scheduling Section -->
+        <section id="scheduling" class="section-content p-8 max-w-6xl hidden">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-2">端侧算力调度中心</h2>
+                <p class="text-slate-400">动态加载/卸载小模型，平衡性能与功耗</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Device Status -->
+                <div class="glass-panel rounded-2xl p-6 border border-indigo-500/20">
+                    <h3 class="font-bold mb-4 flex items-center gap-2">
+                        <span>📱</span> 设备状态
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-slate-400">RAM 使用</span>
+                                <span class="text-indigo-300" id="ram-usage">1.2 / 8 GB</span>
+                            </div>
+                            <div class="h-2 rounded-full bg-slate-800 overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full transition-all duration-1000" style="width: 15%" id="ram-bar"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-slate-400">NPU 负载</span>
+                                <span class="text-cyan-300" id="npu-usage">12%</span>
+                            </div>
+                            <div class="h-2 rounded-full bg-slate-800 overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full transition-all duration-1000" style="width: 12%" id="npu-bar"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-slate-400">电池温度</span>
+                                <span class="text-emerald-300">34°C</span>
+                            </div>
+                            <div class="h-2 rounded-full bg-slate-800 overflow-hidden">
+                                <div class="h-full bg-emerald-500 rounded-full" style="width: 34%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 p-3 rounded-lg bg-slate-900/50 border border-slate-700 text-xs font-mono space-y-1">
+                        <div class="text-slate-500"># 调度策略</div>
+                        <div class="text-indigo-300">local_first: true</div>
+                        <div class="text-indigo-300">cloud_fallback: embedding</div>
+                        <div class="text-indigo-300">lazy_load: enabled</div>
+                    </div>
+                </div>
+
+                <!-- Model Pool -->
+                <div class="lg:col-span-2 glass-panel rounded-2xl p-6 border border-indigo-500/20">
+                    <h3 class="font-bold mb-4 flex items-center gap-2">
+                        <span>🧩</span> 模型集群状态
+                    </h3>
+                    <div class="grid grid-cols-2 gap-3" id="model-pool">
+                        <div class="model-card p-4 rounded-xl bg-slate-900/50 border border-slate-700 hover:border-cyan-500/50 transition-all cursor-pointer" data-model="intent" onclick="toggleModel('intent')">
+                            <div class="flex justify-between items-start mb-2">
+                                <div class="text-xs font-mono text-cyan-400">TinyLlama-1.1B</div>
+                                <div class="status-badge px-2 py-0.5 rounded text-[10px] bg-emerald-500/20 text-emerald-300">RUNNING</div>
+                            </div>
+                            <div class="text-sm font-medium mb-1">意图识别器</div>
+                            <div class="text-xs text-slate-500">RAM: 120MB | INT4</div>
+                            <div class="mt-2 text-xs text-slate-600">始终驻留</div>
+                        </div>
+
+                        <div class="model-card p-4 rounded-xl bg-slate-900/50 border border-slate-700 hover:border-purple-500/50 transition-all cursor-pointer" data-model="plan" onclick="toggleModel('plan')">
+                            <div class="flex justify-between items-start mb-2">
+                                <div class="text-xs font-mono text-purple-400">Phi-2-2.7B</div>
+                                <div class="status-badge px-2 py-0.5 rounded text-[10px] bg-amber-500/20 text-amber-300">STANDBY</div>
+                            </div>
+                            <div class="text-sm font-medium mb-1">任务规划器</div>
+                            <div class="text-xs text-slate-500">RAM: 500MB | INT4</div>
+                            <div class="mt-2 text-xs text-slate-600">按需加载</div>
+                        </div>
+
+                        <div class="model-card p-4 rounded-xl bg-slate-900/50 border border-slate-700 hover:border-pink-500/50 transition-all cursor-pointer" data-model="pronounce" onclick="toggleModel('pronounce')">
+                            <div class="flex justify-between items-start mb-2">
+                                <div class="text-xs font-mono text-pink-400">Conformer-Small</div>
+                                <div class="status-badge px-2 py-0.5 rounded text-[10px] bg-slate-700 text-slate-400">OFFLOADED</div>
+                            </div>
+                            <div class="text-sm font-medium mb-1">发音评测</div>
+                            <div class="text-xs text-slate-500">RAM: 200MB | NPU加速</div>
+                            <div class="mt-2 text-xs text-slate-600">LRU淘汰候选</div>
+                        </div>
+
+                        <div class="model-card p-4 rounded-xl bg-slate-900/50 border border-slate-700 hover:border-indigo-500/50 transition-all cursor-pointer" data-model="chat" onclick="toggleModel('chat')">
+                            <div class="flex justify-between items-start mb-2">
+                                <div class="text-xs font-mono text-indigo-400">StableCode-3B</div>
+                                <div class="status-badge px-2 py-0.5 rounded text-[10px] bg-slate-700 text-slate-400">OFFLOADED</div>
+                            </div>
+                            <div class="text-sm font-medium mb-1">对话生成</div>
+                            <div class="text-xs text-slate-500">RAM: 1.2GB | INT8</div>
+                            <div class="mt-2 text-xs text-slate-600">懒加载</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scheduling Log -->
+            <div class="mt-6 glass-panel rounded-2xl p-6 border border-indigo-500/20">
+                <h3 class="font-bold mb-4">调度日志</h3>
+                <div class="font-mono text-xs space-y-2 h-48 overflow-y-auto" id="scheduling-log">
+                    <div class="text-slate-600">[System] 调度器初始化完成...</div>
+                    <div class="text-slate-600">[System] 检测到NPU可用 (Adreno 740)</div>
+                    <div class="text-emerald-400">[Load] TinyLlama-1.1B → RAM (120MB)</div>
+                    <div class="text-emerald-400">[Load] EmbeddingModel → NPU (45MB)</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Detail Modal -->
+    <div id="detail-modal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div class="glass-panel rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 border border-indigo-500/30">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-bold" id="modal-title">详情</h3>
+                <button onclick="closeModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 flex items-center justify-center">✕</button>
+            </div>
+            <div id="modal-content" class="space-y-4 text-sm text-slate-300">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const realData = {
+            learner: 'AZUQRzoKasSGAWcCG3wFTG',
+            oral: {
+                records: 976,
+                dateRange: '2026-04-07 至 2026-04-09',
+                avgOverall: 71.9,
+                avgWord: 70.76,
+                avgPhone: 70.79,
+                trend: [
+                    ['2026-04-07', 75.23],
+                    ['2026-04-08', 72.63],
+                    ['2026-04-09', 63.88]
+                ],
+                weakPhones: ['dh', 's', 'uh', 'z', 'ng'],
+                weakWords: ['between', 'This', 'students', 'total', 'twenty-seven'],
+                strongWarmups: ['16', 'fifty', 'number', 'points', 'get']
+            },
+            cohort: {
+                learners: 10,
+                words: 148,
+                book: '湘少版（2024审定）四年级上册',
+                avgListening: 57.27,
+                avgUtilize: 5.23,
+                avgPronunciation: 18.81,
+                weakTransferWords: ['flower', 'these', 'garden', 'strong', 'a lot of', 'always', 'colour', 'fun']
+            },
+            resources: {
+                listeningRows: 2211,
+                gradeListeningRows: 675,
+                wordRows: 10278,
+                gradeWordRows: 3807,
+                pictureRows: 757,
+                gradePictureRows: 468
+            },
+            practicePack: {
+                listening: [
+                    { unit: 'Unit 1 The School Garden', level: '难点突破', questions: '10 configured / 10 linked', match: 'garden, flower' },
+                    { unit: 'Unit 4 These are flowers', level: '综合进阶', questions: '5 configured / 13 linked', match: 'flower, these' },
+                    { unit: 'Unit 4 These are flowers', level: '基础巩固', questions: '5 configured / 12 linked', match: 'flower, these' }
+                ],
+                words: [
+                    { word: 'a lot of', unit: 'Unit 1', meaning: '许多', example: 'There are a lot of animals.' },
+                    { word: 'always', unit: 'Unit 4', meaning: '总是', example: 'I always do sports.' },
+                    { word: 'between', unit: 'Unit 1', meaning: '在...中间', example: 'The ball is between two boxes.' },
+                    { word: 'colour', unit: 'Unit 1', meaning: '给...上色', example: 'Lily colours her lion.' },
+                    { word: 'flower', unit: 'U1', meaning: '花', example: 'These flowers are purple.' },
+                    { word: 'garden', unit: 'Unit 6', meaning: '花园', example: 'This is a beautiful garden.' },
+                    { word: 'strong', unit: 'Unit 7', meaning: '强壮的', example: "He's strong." },
+                    { word: 'these', unit: 'Unit 6', meaning: '这些', example: "Look at these flowers. They're beautiful." }
+                ],
+                books: [
+                    { title: 'Our Garden', vocab: 56, duration: 43, match: 'flower, garden' },
+                    { title: 'Bees and Flowers', vocab: 96, duration: 84, match: 'flower, garden' },
+                    { title: "The ladybird who's lost without her friend", vocab: 443, duration: 36, match: 'flower, garden' },
+                    { title: 'This Is a Square', vocab: 0, duration: 58, match: 'This' },
+                    { title: 'My Family', vocab: 40, duration: 76, match: 'This' }
+                ]
+            },
+            memoryDeltas: [
+                '准确率从短词到句子级任务时下降，需要把纠正焦点收窄。',
+                '稳定优先纠正高频弱音 dh / s / uh / z。',
+                '班级策略聚焦从听力输入迁移到可用输出。',
+                '保留发音优先、句型框架化练习。'
+            ],
+            userDeltas: [
+                '学习者能承受高频口语练习，3天内有976条记录。',
+                '当前弱词集中在 between / This / students / total / twenty-seven。',
+                '个人纠正焦点保持在 dh / s / uh / z / ng。'
+            ]
+        };
+
+        function renderPracticePack() {
+            const listening = document.getElementById('listening-pack');
+            const words = document.getElementById('word-pack');
+            const books = document.getElementById('book-pack');
+            if (!listening || !words || !books) return;
+
+            listening.innerHTML = realData.practicePack.listening.map(item => `
+                <div class="p-3 rounded-lg bg-cyan-500/5 border border-cyan-500/10">
+                    <div class="font-medium text-cyan-200">${item.unit}</div>
+                    <div class="text-xs text-slate-500 mt-1">${item.level} · ${item.questions}</div>
+                    <div class="text-xs text-cyan-300 mt-1">match: ${item.match}</div>
+                </div>
+            `).join('');
+
+            words.innerHTML = realData.practicePack.words.map(item => `
+                <div class="p-2 rounded-lg bg-amber-500/5 border border-amber-500/10">
+                    <div class="flex justify-between gap-3">
+                        <span class="font-medium text-amber-200">${item.word}</span>
+                        <span class="text-xs text-slate-500">${item.unit}</span>
+                    </div>
+                    <div class="text-xs text-slate-400">${item.meaning} · ${item.example}</div>
+                </div>
+            `).join('');
+
+            books.innerHTML = realData.practicePack.books.map(item => `
+                <div class="p-3 rounded-lg bg-emerald-500/5 border border-emerald-500/10">
+                    <div class="font-medium text-emerald-200">${item.title}</div>
+                    <div class="text-xs text-slate-500 mt-1">vocab ${item.vocab} · duration ${item.duration} · match: ${item.match}</div>
+                </div>
+            `).join('');
+        }
+
+        // Navigation
+        function showSection(sectionId) {
+            document.querySelectorAll('.section-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById(sectionId).classList.remove('hidden');
+            document.querySelectorAll('.nav-btn').forEach(el => {
+                el.classList.remove('active', 'bg-indigo-500/10', 'border-indigo-500/30');
+                el.classList.add('border-transparent');
+            });
+            const activeBtn = document.querySelector(`[data-section="${sectionId}"]`);
+            activeBtn.classList.add('active', 'bg-indigo-500/10', 'border-indigo-500/30');
+            activeBtn.classList.remove('border-transparent');
+        }
+
+        // Flow Animation
+        function startFlowAnimation() {
+            const svg = document.getElementById('flowSvg');
+            svg.innerHTML = '';
+            
+            const nodes = {
+                perception: document.getElementById('node-perception').getBoundingClientRect(),
+                cognition: document.getElementById('node-cognition').getBoundingClientRect(),
+                action: document.getElementById('node-action').getBoundingClientRect(),
+                memory: document.getElementById('node-memory').getBoundingClientRect()
+            };
+            
+            const svgRect = svg.getBoundingClientRect();
+            
+            function getCenter(rect) {
+                return {
+                    x: rect.left + rect.width/2 - svgRect.left,
+                    y: rect.top + rect.height/2 - svgRect.top
+                };
+            }
+            
+            const p = getCenter(nodes.perception);
+            const c = getCenter(nodes.cognition);
+            const a = getCenter(nodes.action);
+            const m = getCenter(nodes.memory);
+            
+            const paths = [
+                {d: `M${p.x},${p.y+20} L${c.x},${c.y-20}`, color: '#06b6d4'},
+                {d: `M${c.x},${c.y+20} L${a.x},${a.y-20}`, color: '#a855f7'},
+                {d: `M${a.x},${a.y+20} L${m.x+30},${m.y}`, color: '#ec4899'},
+                {d: `M${m.x-30},${m.y} L${p.x},${p.y+20}`, color: '#10b981'}
+            ];
+            
+            paths.forEach((path, i) => {
+                const el = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                el.setAttribute('d', path.d);
+                el.setAttribute('stroke', path.color);
+                el.setAttribute('stroke-width', '2');
+                el.setAttribute('fill', 'none');
+                el.classList.add('flow-line');
+                el.style.opacity = '0';
+                svg.appendChild(el);
+                
+                setTimeout(() => {
+                    el.style.transition = 'opacity 0.5s';
+                    el.style.opacity = '0.8';
+                }, i * 500);
+            });
+        }
+
+        // Teaching Simulation
+        let hermesStep = 0;
+        const hermesSteps = [
+            { status: '感知层：读取真实评测...', content: `加载 ${realData.oral.records} 条口语记录，覆盖 ${realData.oral.dateRange}`, type: 'perception' },
+            { status: '感知层：读取资源目录...', content: `四年级资源：听力 ${realData.resources.gradeListeningRows} 条，单词 ${realData.resources.gradeWordRows} 条，绘本 ${realData.resources.gradePictureRows} 本`, type: 'perception' },
+            { status: '决策层：区分证据类型...', content: '个人口语证据、班级教材模式、资源目录信号分开处理', type: 'cognition' },
+            { status: '决策层：抽取弱项...', content: `弱音 ${realData.oral.weakPhones.join(' / ')}；弱词 ${realData.oral.weakWords.join(' / ')}`, type: 'cognition' },
+            { status: '执行层：组合听力入口...', content: `听力：${realData.practicePack.listening[0].unit}，匹配 ${realData.practicePack.listening[0].match}`, type: 'action' },
+            { status: '执行层：组合单词入口...', content: `单词：${realData.practicePack.words.slice(0, 4).map(item => item.word).join(' / ')}`, type: 'action' },
+            { status: '执行层：组合绘本迁移...', content: `绘本：${realData.practicePack.books[0].title}，匹配 ${realData.practicePack.books[0].match}`, type: 'action' },
+            { status: '记忆层：生成写回建议...', content: 'MEMORY.md 更新教学策略，USER.md 更新个人弱项；资源库不写成学生结论', type: 'memory' }
+        ];
+
+        function startHermesTeaching() {
+            hermesStep = 0;
+            const overlay = document.getElementById('hermes-overlay');
+            const steps = document.getElementById('hermes-steps');
+            const status = document.getElementById('hermes-status');
+            
+            overlay.classList.remove('hidden');
+            steps.innerHTML = '';
+            
+            function nextStep() {
+                if (hermesStep >= hermesSteps.length) {
+                    setTimeout(() => {
+                        overlay.classList.add('hidden');
+                        alert('练习包已生成：听力识别 → 单词回忆 → 绘本迁移');
+                    }, 1000);
+                    return;
+                }
+                
+                const step = hermesSteps[hermesStep];
+                status.textContent = step.status;
+                
+                const div = document.createElement('div');
+                div.className = 'p-3 rounded-lg border animate-slide-up';
+                if (step.type === 'perception') div.classList.add('bg-cyan-500/10', 'border-cyan-500/30', 'text-cyan-300');
+                else if (step.type === 'cognition') div.classList.add('bg-purple-500/10', 'border-purple-500/30', 'text-purple-300');
+                else if (step.type === 'action') div.classList.add('bg-pink-500/10', 'border-pink-500/30', 'text-pink-300');
+                else div.classList.add('bg-emerald-500/10', 'border-emerald-500/30', 'text-emerald-300');
+                
+                div.textContent = step.content;
+                steps.appendChild(div);
+                steps.scrollTop = steps.scrollHeight;
+                
+                hermesStep++;
+                setTimeout(nextStep, 800);
+            }
+            
+            nextStep();
+        }
+
+        function playTraditional() {
+            document.getElementById('traditional-result').classList.remove('hidden');
+        }
+
+        // Evolution Simulation
+        let stats = {
+            tasks: realData.oral.records,
+            calls: 5,
+            success: realData.oral.avgOverall,
+            skills: 1
+        };
+        let sessions = [];
+
+        function updateStats() {
+            document.getElementById('stat-tasks').textContent = stats.tasks;
+            document.getElementById('stat-calls').textContent = stats.calls;
+            document.getElementById('stat-success').textContent = Number(stats.success).toFixed(1);
+            document.getElementById('stat-skills').textContent = stats.skills;
+        }
+
+        function addTimelineItem(content, type) {
+            const timeline = document.getElementById('evolution-timeline');
+            const div = document.createElement('div');
+            div.className = 'flex items-start gap-4 animate-slide-up';
+            
+            let color = 'bg-slate-500';
+            if (type === 'success') color = 'bg-cyan-500';
+            else if (type === 'fail') color = 'bg-red-500';
+            else if (type === 'skill') color = 'bg-emerald-500';
+            else if (type === 'nudge') color = 'bg-purple-500';
+            
+            div.innerHTML = `
+                <div class="w-4 h-4 rounded-full ${color} border-2 border-slate-900 z-10 mt-1"></div>
+                <div class="flex-1 p-3 rounded-lg bg-slate-900/30 border border-slate-700 text-sm">
+                    ${content}
+                </div>
+            `;
+            timeline.appendChild(div);
+            timeline.scrollTop = timeline.scrollHeight;
+        }
+
+        function simulateTeachingSession() {
+            stats.tasks++;
+            const success = Math.random() > 0.35;
+            const calls = Math.floor(Math.random() * 3) + 2;
+            stats.calls = Math.min(8, stats.calls + 1);
+            
+            if (success) stats.success = Math.min(100, stats.success + 1.6);
+            else stats.success = Math.max(0, stats.success - 0.8);
+            
+            sessions.push({ success, calls, pattern: 'weak_transfer' });
+            
+            addTimelineItem(
+                `推演 #${sessions.length}: ${success ? '✅ 通过' : '❌ 未稳'} | ${calls} 个资源动作 | ${success ? '完成 garden 迁移句' : 'between / garden 仍需窄焦点复练'}`,
+                success ? 'success' : 'fail'
+            );
+            
+            updateStats();
+            
+            // Auto trigger skill generation after threshold
+            const weakTransferErrors = sessions.filter(s => !s.success && s.pattern === 'weak_transfer').length;
+            if (weakTransferErrors >= 3 && stats.skills === 1) {
+                setTimeout(() => {
+                    stats.skills++;
+                    addTimelineItem('🧩 自动生成补丁: practice_pack_v1.1 (增加句型迁移前的弱词复现)', 'skill');
+                    updateSkillLibrary();
+                    updateStats();
+                }, 500);
+            }
+        }
+
+        function simulateBatchSessions() {
+            for (let i = 0; i < 10; i++) {
+                setTimeout(() => simulateTeachingSession(), i * 300);
+            }
+        }
+
+        function triggerNudge() {
+            addTimelineItem('🔄 Nudge触发：后台复盘进程启动 (Fork)', 'nudge');
+            
+            setTimeout(() => {
+                const successRate = stats.success;
+                if (successRate < 75) {
+                    addTimelineItem(`📊 复盘结果：平均分 ${Number(successRate).toFixed(1)} < 75，继续强化 dh / s / z 和 between 句型`, 'nudge');
+                } else {
+                    addTimelineItem(`📊 复盘结果：平均分 ${Number(successRate).toFixed(1)} 达标，沉淀练习包补丁`, 'nudge');
+                    if (stats.skills > 0) {
+                        setTimeout(() => {
+                            addTimelineItem('📝 Skill 补丁 v1.1：把听力识别放在单词输出之前，控制80%成功率', 'skill');
+                            updateSkillLibraryV11();
+                        }, 500);
+                    }
+                }
+            }, 1000);
+        }
+
+        function updateSkillLibrary() {
+            const lib = document.getElementById('skill-library');
+            lib.innerHTML = `
+                <div class="skill-node glass-panel rounded-xl p-4 border border-emerald-500/30 bg-emerald-500/5">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="text-xs font-mono text-emerald-400">Skill_v1.0</div>
+                        <div class="px-2 py-0.5 rounded text-[10px] bg-emerald-500/20 text-emerald-300">ACTIVE</div>
+                    </div>
+                    <div class="text-sm font-medium mb-2">student_self_evolution</div>
+                    <div class="code-block rounded p-2 font-mono text-[10px] space-y-1 text-slate-400">
+                        <div>触发: 新评测 + 新资源目录</div>
+                        <div>1. 分离个人/班级证据</div>
+                        <div>2. 抽取弱音和弱词</div>
+                        <div>3. 推荐听力+单词+绘本</div>
+                    </div>
+                    <div class="mt-2 text-xs text-emerald-400">来源: evolution_brief.md</div>
+                </div>
+            `;
+        }
+
+        function updateSkillLibraryV11() {
+            const lib = document.getElementById('skill-library');
+            lib.innerHTML = `
+                <div class="skill-node glass-panel rounded-xl p-4 border border-emerald-500/30 bg-emerald-500/5">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="text-xs font-mono text-emerald-400">Skill_v1.0</div>
+                        <div class="px-2 py-0.5 rounded text-[10px] bg-slate-700 text-slate-400">DEPRECATED</div>
+                    </div>
+                    <div class="text-sm font-medium mb-2">student_self_evolution</div>
+                    <div class="code-block rounded p-2 font-mono text-[10px] space-y-1 text-slate-400 opacity-50">
+                        <div>触发: 新评测 + 新资源目录</div>
+                        <div>1. 诊断弱项</div>
+                        <div>2. 输出 micro-loop</div>
+                    </div>
+                </div>
+                <div class="skill-node glass-panel rounded-xl p-4 border border-amber-500/30 bg-amber-500/5">
+                    <div class="flex justify-between items-start mb-2">
+                        <div class="text-xs font-mono text-amber-400">Skill_v1.1 (Patch)</div>
+                        <div class="px-2 py-0.5 rounded text-[10px] bg-amber-500/20 text-amber-300">CURRENT</div>
+                    </div>
+                    <div class="text-sm font-medium mb-2">practice_pack 推荐</div>
+                    <div class="code-block rounded p-2 font-mono text-[10px] space-y-1 text-slate-400">
+                        <div>触发: 资源目录可用</div>
+                        <div>1. 听力: The School Garden</div>
+                        <div class="text-amber-300">2. + 单词: between / garden</div>
+                        <div>3. 绘本: Our Garden</div>
+                        <div>4. 写回: MEMORY / USER Delta</div>
+                    </div>
+                    <div class="mt-2 text-xs text-amber-400">补丁: 增加可执行练习包</div>
+                </div>
+            `;
+        }
+
+        // Model Scheduling
+        const modelStates = {
+            intent: { loaded: true, ram: 120 },
+            plan: { loaded: false, ram: 500 },
+            pronounce: { loaded: false, ram: 200 },
+            chat: { loaded: false, ram: 1200 }
+        };
+
+        function toggleModel(modelId) {
+            const state = modelStates[modelId];
+            const card = document.querySelector(`[data-model="${modelId}"]`);
+            const badge = card.querySelector('.status-badge');
+            
+            if (state.loaded) {
+                state.loaded = false;
+                badge.textContent = 'OFFLOADED';
+                badge.className = 'status-badge px-2 py-0.5 rounded text-[10px] bg-slate-700 text-slate-400';
+                addLog(`[Unload] ${modelId} → 磁盘 (释放 ${state.ram}MB)`);
+            } else {
+                state.loaded = true;
+                badge.textContent = 'RUNNING';
+                badge.className = 'status-badge px-2 py-0.5 rounded text-[10px] bg-emerald-500/20 text-emerald-300';
+                addLog(`[Load] ${modelId} → RAM (+${state.ram}MB)`);
+            }
+            
+            updateRamUsage();
+        }
+
+        function updateRamUsage() {
+            const used = Object.values(modelStates).filter(s => s.loaded).reduce((a, b) => a + b.ram, 0);
+            const total = 8192;
+            const pct = (used / total * 100).toFixed(1);
+            
+            document.getElementById('ram-usage').textContent = `${(used/1024).toFixed(2)} / 8 GB`;
+            document.getElementById('ram-bar').style.width = pct + '%';
+        }
+
+        function addLog(msg) {
+            const log = document.getElementById('scheduling-log');
+            const div = document.createElement('div');
+            div.className = 'animate-slide-up';
+            if (msg.includes('Load')) div.className += ' text-emerald-400';
+            else if (msg.includes('Unload')) div.className += ' text-amber-400';
+            else div.className += ' text-slate-400';
+            div.textContent = msg;
+            log.appendChild(div);
+            log.scrollTop = log.scrollHeight;
+        }
+
+        // Modal
+        const layerDetails = {
+            perception: {
+                title: '感知层 Perception - 技术细节',
+                content: `
+                    <div class="space-y-4">
+                        <div><strong>口语评测</strong><br>读取 260410_评测记录.csv，定位主学习者 ${realData.learner}，共 ${realData.oral.records} 条记录。</div>
+                        <div><strong>教材词汇</strong><br>读取湘少版四年级上册词汇快照，区分班级模式和个人表现。</div>
+                        <div><strong>资源目录</strong><br>读取听力、巧记单词、绘本资源库，只用于选材，不直接写成学习结论。</div>
+                        <div class="p-3 bg-slate-800 rounded-lg font-mono text-xs">evidence = oral_eval + textbook_vocab + resource_catalogs</div>
+                    </div>
+                `
+            },
+            cognition: {
+                title: '决策层 Cognition - 技术细节',
+                content: `
+                    <div class="space-y-4">
+                        <div><strong>证据边界</strong><br>个人口语记录是直接证据；班级教材表现是 cohort pattern；资源库只是 resource signal。</div>
+                        <div><strong>弱项抽取</strong><br>弱音集中在 ${realData.oral.weakPhones.join(' / ')}，弱词集中在 ${realData.oral.weakWords.join(' / ')}。</div>
+                        <div><strong>持久化判断</strong><br>只有跨天、重复、会改变教学策略的结论才建议写回 MEMORY.md 或 USER.md。</div>
+                        <div class="p-3 bg-slate-800 rounded-lg font-mono text-xs">decision = direct evidence + inference + persistence threshold</div>
+                    </div>
+                `
+            },
+            action: {
+                title: '执行层 Action - 技术细节',
+                content: `
+                    <div class="space-y-4">
+                        <div><strong>听力入口</strong><br>优先推荐 The School Garden 和 These are flowers，先做识别输入。</div>
+                        <div><strong>单词入口</strong><br>推荐 between / garden / flower / these 等可直接命中资源库的词条。</div>
+                        <div><strong>绘本迁移</strong><br>推荐 Our Garden、Bees and Flowers 等，把词汇迁移到短句和语境。</div>
+                        <div class="p-3 bg-slate-800 rounded-lg font-mono text-xs">action = listening recognition → quick-word recall → picture-book transfer</div>
+                    </div>
+                `
+            }
+        };
+
+        function toggleLayerDetail(layer) {
+            const detail = layerDetails[layer];
+            document.getElementById('modal-title').textContent = detail.title;
+            document.getElementById('modal-content').innerHTML = detail.content;
+            document.getElementById('detail-modal').classList.remove('hidden');
+            document.getElementById('detail-modal').classList.add('flex');
+        }
+
+        function showMemoryDetail(level) {
+            const details = {
+                l1: { title: 'L1 提示词记忆', content: '存放稳定策略：个人证据和班级证据分开，资源库只用于练习选择。当前建议写回：句子级任务准确率下降，需要窄焦点发音纠正。' },
+                l2: { title: 'L2 会话归档', content: '保存 976 条口语记录和跨天趋势。当前关键事实：平均总分 71.9，三天趋势为 75.23 → 72.63 → 63.88。' },
+                l3: { title: 'L3 技能记忆', content: 'student-self-evolution 技能负责把新证据变成诊断、写回建议和练习包。此次补丁新增 Recommended Practice Pack。' },
+                l4: { title: 'L4 外部记忆', content: '资源目录层包含听力 2211 条、单词 10278 条、绘本 757 本。四年级可用资源用于匹配练习，不作为学生能力结论。' }
+            };
+            document.getElementById('modal-title').textContent = details[level].title;
+            document.getElementById('modal-content').textContent = details[level].content;
+            document.getElementById('detail-modal').classList.remove('hidden');
+            document.getElementById('detail-modal').classList.add('flex');
+        }
+
+        function closeModal() {
+            document.getElementById('detail-modal').classList.add('hidden');
+            document.getElementById('detail-modal').classList.remove('flex');
+        }
+
+        function initDataDemo() {
+            renderPracticePack();
+            updateStats();
+            updateSkillLibrary();
+
+            const timeline = document.getElementById('evolution-timeline');
+            if (timeline) timeline.innerHTML = '';
+            addTimelineItem(`📥 读取 ${realData.oral.records} 条口语记录：${realData.oral.dateRange}`, 'success');
+            addTimelineItem(`📉 发现趋势：${realData.oral.trend.map(item => item[1]).join(' → ')}，句子级输出需要降阶`, 'nudge');
+            addTimelineItem(`🧠 个人弱项：${realData.oral.weakPhones.join(' / ')}；弱词：${realData.oral.weakWords.join(' / ')}`, 'fail');
+            addTimelineItem(`👥 班级弱迁移词：${realData.cohort.weakTransferWords.slice(0, 5).join(' / ')}`, 'nudge');
+            addTimelineItem('🧩 练习包已生成：3 个听力入口、8 个单词入口、5 本绘本迁移入口', 'skill');
+        }
+
+        // Init
+        initDataDemo();
+        showSection('architecture');
+    </script>
+</body>
+</html>

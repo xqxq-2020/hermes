@@ -1,0 +1,4 @@
+interface:
+  display_name: "学情自进化"
+  short_description: "基于 MEMORY.md 与 USER.md 持续更新学生画像、教学策略与下一步动作。"
+  default_prompt: "Use $student-self-evolution to read MEMORY.md and USER.md, update the learner profile, and produce the next micro-teaching loop."

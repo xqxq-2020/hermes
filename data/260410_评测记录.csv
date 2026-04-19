@@ -1,0 +1,977 @@
+user_id,content,overall,word,score,ph_id,phone_char,phone_score,create_date,date_str
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,16,99,"",t,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,3,s,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,16,99,"",k,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,There,44,1_2,dh,44.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,between,0,7,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,and,0,1,ax,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,No,96,1,n,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,9_10,l,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Class,77,2,l,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,16,99,"",iy,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Two,76,1,t,78.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,No,79,"",m,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,a,75,1,ax,75.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,8,uh,25.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Two,99,1,t,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,and,97,3,d,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,1,b,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,2,w,89.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,62.0,science,62,6,s,0.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,great,96.0,great,96,2,r,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,58.0,sixty,58,4,t,56.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,great,96.0,great,96,1,g,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,between,80,3,t,84.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,58.0,sixty,58,2,ih,50.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,great,96.0,great,96,3_4,ey,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,3,eh,72.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,23,77,"",ih,77.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,points,95,4,n,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,No,100,1,n,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,5,ih,86.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,between,0,3,t,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,6,ae,90.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,23,93,"",ih,93.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,No,96,"",b,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,2,l,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,on,75,2,n,72.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,One,98,"",w,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,95,1,k,86.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,97.0,science,97,3,ay,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,2,n,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,3_5,tr,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,1,ih,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,7,s,84.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,forty,96.0,forty,96,4,t,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,1,b,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,match,91,2,ae,77.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,8,ao,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,match,93.0,match,93,3_4_5,ch,85.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Come,82,3,m,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,There,98,3_4_5,ar,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Two,76,2_3,uw,74.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,15,z,91.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,between,0,4,w,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,6,t,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,7,b,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,One,98,2,n,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,hundred,89,4_5,dr,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,fifty,98.0,fifty,98,1,f,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,one,98,2,n,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,62.0,science,62,5,n,85.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,62.0,science,62,1_2,s,58.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,great,96.0,great,96,5,t,85.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,one,99,1,ah,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,eighty,71.0,eighty,71,1_2,ey,73.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Thank you.,95.0,Thank,90,1_2,th,61.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,match,91,1,m,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,match,93.0,match,93,1,m,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,95.0,sixty,95,2,ih,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,1,t,8.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,95.0,sixty,95,4,t,94.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,97,2,l,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,97,4_5,s,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,between,80,2,ih,54.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,and,93,3,d,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Thank you.,95.0,Thank,90,5,k,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,10_11,ng,0.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,6,ax,90.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,97.0,science,97,4,ax,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,thirty,77.0,thirty,77,1_2,th,40.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,6,ae,66.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,between,0,5_6,iy,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,16,99,"",n,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,match,71,2,ae,35.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,and,97,1,ae,92.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,gets,92,2,eh,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,No,79,2,ah,94.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,There,98,1_2,dh,95.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,One,98,"",w,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,16,99,"",ih,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,93,2,l,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,One,0,2,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,Class,0,3,aa,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,and,97,2,n,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,8,uh,47.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,No,98,"",ax,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,9,l,67.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,No,98,2,ah,95.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,get,96.0,get,96,3,t,91.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,9,l,19.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,There,98,1_2,dh,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Thank you.,95.0,you,100,2_3,uh,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,between,80,5_6,iy,89.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,2,ax,29.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,10,ey,93.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,95.0,sixty,95,3,k,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,58.0,sixty,58,1,s,35.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,95.0,sixty,95,"",s,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,fifty,98.0,fifty,98,2,ih,94.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,fifty,98.0,fifty,98,5,ih,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,forty,96.0,forty,96,2,ao,89.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,97.0,science,97,1_2,s,97.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,97.0,science,97,6,s,90.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,points,95,5_6,ts,83.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,Class,91,2,l,83.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,16,98,"",n,93.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,points,95,2_3,oy,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,16,98,"",ih,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,match,0,1,m,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,2,ax,39.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Class,77,3,aa,92.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,and,0,3,d,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,No,96,"",m,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,between,0,7,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,Class,0,2,l,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,One,0,"",w,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,2,aa,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,7,b,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,hundred,96,7,d,93.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,thirty,77.0,thirty,77,6,ih,96.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,Class,91,1,k,82.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,forty,96.0,forty,96,1,f,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,No,98,1,n,94.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,15,z,92.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,97,3,aa,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,9_10,l,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,7,ch,71.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,3,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,Come,99,2,ah,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,No,100,2,ah,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,match,71,1,m,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,I'm,54,2,m,17.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Come,82,2,ah,49.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,No,79,"",ax,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,There,44,4,r,89.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,I'm,99,1,ay,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,3,aa,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,3,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,4_5,s,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,1,k,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,85,3,aa,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,1,k,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,14,n,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,One,98,2,n,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,7,ch,56.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,match,91,3_4_5,ch,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,a,100,1,ax,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,62.0,science,62,3,ay,70.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,4,n,91.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,6,ih,63.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,between,80,4,w,87.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,and,93,2,n,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,11_12,sh,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,10,ey,35.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,on,75,1,aa,78.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Two,0,2_3,uw,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,4,k,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,2,aa,18.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,4,g,73.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,eighty,71.0,eighty,71,6,ih,94.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,hundred,96,2,ah,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,58.0,sixty,58,5,ih,37.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,10_11,ng,78.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,3_5,tr,97.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,is,0,2,z,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,is,0,1,ih,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,93,3,aa,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,I'm,54,1,ay,92.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,No,79,1,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,No,79,"",b,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,and,93,1,ae,80.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Thank you.,95.0,Thank,90,3,ae,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Thank you.,95.0,Thank,90,4,ng,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,seventy,80.0,seventy,80,6,t,96.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,One,98,1,ah,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,16,99,"",s,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,and,0,2,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,9,l,10.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,between,0,2,ih,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Come,82,1,k,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,match,0,2,ae,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,Two,98,2_3,uw,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,5,r,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,95.0,sixty,95,5,ih,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,ninety,76.0,ninety,76,1,n,0.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,58.0,sixty,58,3,k,94.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,6,t,22.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,points,98,4,n,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,points,98,1,p,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,No,96,2,ah,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,7,ch,67.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,Class,0,1,k,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,14,n,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,85,2,l,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,a,100,1,ax,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,9,ih,0.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,58.0,sixty,58,"",s,73.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,7,ah,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,95,2,l,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,6,ae,46.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,4,g,71.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,is,99,2,z,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,No,100,"",b,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,I'm,99,2,m,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,gets,90,2,eh,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,No,93,"",b,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,Class,71,4_5,s,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,Come,99,1,k,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,on,84,2,n,76.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,No,100,"",ax,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,No,93,"",ax,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,3,n,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Two,59,2_3,uw,46.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,97,1,k,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,between,80,1,b,70.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,is,99,1,ih,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,seventy,80.0,seventy,80,5,n,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,Come,99,3,m,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,I'm,99,1,ay,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Two,0,1,t,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,93,1,k,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,I'm,99,2,m,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,Class,0,4_5,s,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Class,77,1,k,71.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,Two,98,1,t,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,93,4_5,s,75.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,11_12,sh,56.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,3,s,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,7,s,42.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Thank you.,95.0,you,100,1,y,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,5,r,80.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,8,uh,11.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,95,3,aa,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,"",w,89.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,white,0,3,ay,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,walls,70,2,ao,59.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,white,67,3,ay,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,Mr,95,"",ih,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,likes,0,3,k,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,forty,96.0,forty,96,5,ih,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,get,96.0,get,96,2,eh,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,14,n,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,I'm,99,2,m,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,wind,31.0,wind,31,2,ih,17.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,between,0,2,ih,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,52,78,"",ih,78.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,4,k,88.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,There,44,3,eh,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,79.0,16,99,"",s,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,1,b,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,is,99,2,z,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,3,aa,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,1,k,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,gets,92,1,g,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,5,t,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,sixty,95.0,sixty,95,1,s,80.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,twenty-one,79.0,twenty-one,79,8,n,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,wind,72.0,wind,72,2,ih,24.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,Mrs,54,2,ih,94.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,Mr,92,1,m,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,White,89,4,t,78.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,So,96,2,ow,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,does,24,1,d,70.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,So,27,1,s,54.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,The,30,3,ax,46.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,point,100.0,point,100,4,n,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,No,93,1,n,65.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,point,100.0,point,100,5,t,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,One,99,2,n,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,one,98,1,ah,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,thirty,77.0,thirty,77,3_4,er,74.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,hundred,96,3,n,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,one,99,"",w,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,1,k,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,I'm,99,1,ay,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,11_12,sh,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,5,ih,66.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,wind,24.0,wind,24,2,ay,59.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,walls,70,3_4,l,71.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,are,60,2,r,82.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,8,d,0.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,3,s,92.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Two,59,1,t,72.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,One,98,1,ah,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,There,98,3_4_5,ar,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,match,93.0,match,93,2,ae,95.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,Mr,92,"",t,86.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wall,74.0,wall,74,3_4,l,80.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,likes,99,3,k,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wall,74.0,wall,74,1,w,56.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,are,50,1,aa,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,white,84,4,t,60.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,are,62,2,r,64.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,81,1,w,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wash,85.0,wash,85,3_4,sh,61.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,64.0,wind,64,1,w,48.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,are,50,2,r,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,56,3_4,l,49.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,white,73,1,w,18.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,White,89,3,ay,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,white,0,1,w,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,walls,77,2,ao,85.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,white,85,3,ay,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,walls,50,5,z,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,85,1,k,43.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,between,0,1,b,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,8,ao,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,8,ao,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,4_5,s,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,4,k,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,gets,92,3_4,ts,77.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class Two!",79.0,Class,77,4_5,s,48.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,ninety,76.0,ninety,76,6,ih,95.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,hundred,96,6,ax,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,one,99,2,n,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,hundred,96,4_5,dr,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,White,82,4,t,60.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,56,1,w,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,72.0,wind,72,1,w,75.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,white,58,4,t,76.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,walls,72,5,z,43.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,does,81,1,d,83.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,white,0,4,t,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,walls,72,3_4,l,83.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,72.0,wind,72,3,n,94.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,are,75,1,aa,67.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,The,65,1_2,dh,77.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,The,56,1_2,dh,78.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,White,82,1,w,88.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,The,41,3,ax,32.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,likes,99,2,ay,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wash,35.0,wash,35,1,w,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,Mrs,79,2,ih,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,walls,50,2,ao,35.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,are,62,1,aa,60.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,walls,50,1,w,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,windows,73,5,ow,90.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,white,0,1,w,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,White,92,4,t,90.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,watch,87.0,watch,87,1,w,95.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,are,60,1,aa,39.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,Mr,95,2,ax,78.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,walls,70,1,w,93.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,likes,0,5,s,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,24.0,wind,24,1,w,36.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,are,71,1,aa,54.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,Mr,92,"",s,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,white,0,3,ay,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,are,75,2,r,83.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,are,66,2,r,88.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,The,97,1_2,dh,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,white,60,1,w,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,The,97,3,ax,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,white,60,4,t,84.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wall,74.0,wall,74,2,ao,85.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,Mr,92,2,ax,81.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,81,3_4,l,68.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,39.0,wind,39,4,d,23.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,Mrs,79,3,z,38.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,white,84,1,w,92.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,white,67,4,t,93.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,The,9,1_2,dh,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,White,92,1,w,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,likes,0,2,ay,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,Mr,95,"",d,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,walls,50,1,w,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Ww,86.0,Ww,86,1_2,w,86.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,white,93,1,w,81.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,are,47,1,aa,46.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wash,35.0,wash,35,2,aa,70.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,are,61,2,r,80.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,does,24,4,z,2.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,The,0,1_2,dh,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,white,73,3,ay,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,white,60,3,ay,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,walls,77,1,w,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,does,81,2,ah,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,The,0,3,ax,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,walls,77,5,z,46.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,White,89,1,w,88.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,Mrs,54,"",ih,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,white,93,3,ay,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,are,66,1,aa,44.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wash,35.0,wash,35,3_4,sh,35.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wash,85.0,wash,85,1,w,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,16,98,"",s,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,One,99,"",w,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,I'm,99,2,m,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,I'm,99,1,ay,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,The,15,1_2,dh,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,39.0,wind,39,3,n,91.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,So,27,2,ow,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,are,90,1,aa,85.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,walls,77,3_4,l,77.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,walls,86,5,z,83.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,Mrs,54,"",s,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,56,2,ao,74.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wash,85.0,wash,85,2,aa,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,39.0,wind,39,1,w,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,many,85,3,n,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,points,95,1,p,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,get,98,1,g,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,number,100,3,m,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,What,80,4,t,85.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,wind,24.0,wind,24,4,d,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,10,ax,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,7,s,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,11,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,There,79,3_4_5,ar,82.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,It's,80,2_3,ts,62.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,fifteen,99,3,f,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,6,ih,93.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,and,100,2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,This,72,1_2,dh,84.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,8,eh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,one,92,2,n,81.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,It's,61,1,ih,72.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,missing,69,6_7,ng,54.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,missing,69,2,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,and,100,2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,1,t,73.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,total,80,3,t,34.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,numbers,67,6,r,61.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,fifteen,99,7,n,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,know,77,1_2,n,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,five,57,2,ay,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,one,92,"",w,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,one,100,"",w,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,4,n,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,and,100,1,ae,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,8,ih,50.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,5,t,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,hundred,100,3,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,3,eh,84.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,four,92,2_3,ao,85.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,walls,72,1,w,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,white,85,1,w,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,Mrs,54,3,z,77.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,Mrs,54,1,m,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,The,15,3,ax,30.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,are,90,2,r,95.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,39.0,wind,39,2,ih,41.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,Mrs,79,"",ih,67.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,white,76,1,w,30.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,What,80,3,aa,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,It's,61,2_3,ts,66.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,1,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,"",s,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,No,98,"",b,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,get,96.0,get,96,1,g,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,5,r,95.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,numbers,67,5,ax,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,7_8,th,79.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,hundred,81,4_5,dr,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,hundred,81,1,hh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,know,77,3,ow,54.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,four,92,1,f,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,9,k,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,56.0,Twenty,56,2,w,13.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,"",s,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,1,t,74.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,hundred,75,3,n,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,one,95,"",w,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,ten,97,2,eh,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,the,0,1_2,dh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"Ready, go!",89.0,Ready,82,4,d,55.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,hundred,97,6,ax,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,This,0,1_2,dh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,7,ih,83.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,students,76,1,s,86.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,is,99,2,z,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,know,99,1_2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,and,0,2,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,6,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,83.0,Twenty,83,5,t,94.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,ten,0,3,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,number,90,4,b,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,students,0,3,y,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,number,90,5,ax,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,missing,69,1,m,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,8,k,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,4,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,two,96,2_3,uw,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,"",s,29.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"Ready, go!",89.0,Ready,82,2,eh,89.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,missing,85,2,ih,94.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,number,99,3,m,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,"",s,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,know,99,3,ow,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,4,t,91.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,here,80,1,hh,65.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,This,72,4,s,33.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,83.0,Twenty,83,2,w,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,11,t,81.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,missing,85,5,ih,92.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,You,86,2_3,uh,87.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,2,w,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,fifteen,0,7,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,7_8,ey,52.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,many,96,3,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,is,99,1,ih,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,number,99,4,b,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,1,n,80.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,students,76,6,n,58.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,missing,85,3_4,s,37.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,many,96,2,eh,90.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,6,s,30.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,missing,85,1,m,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,one,100,1,ah,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,number,90,2,ah,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,missing,46,5,ih,9.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,"",s,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,6,s,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,number,90,6,r,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,number,99,1,n,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,11,t,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,Let's,98,2,eh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,4,t,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,one,99,2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,2,ih,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,6,eh,82.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,eighty,71.0,eighty,71,5,t,46.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,seventy,80.0,seventy,80,1,s,1.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,seventy,80.0,seventy,80,7,ih,91.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,numbers,67,7,z,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,numbers,67,1,n,9.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,numbers,67,3,m,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,numbers,67,2,ah,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,ten,97,1,t,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,1,t,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,and,100,3,d,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,one,95,2,n,90.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,10,ax,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,fifteen,99,5_6,iy,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,missing,85,1,m,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,the,99,3,ax,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,The,41,1_2,dh,51.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,white,85,4,t,64.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,white,93,4,t,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,likes,99,1,l,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,The,65,3,ax,53.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wall,61.0,wall,61,1,w,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,White,85,4,t,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,5,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,hundred,0,7,d,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,Mr,95,1,m,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,watch,87.0,watch,87,3_4_5,ch,84.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,windows,73,3,n,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,white,81,1,w,48.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,The,9,3,ax,17.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,total,80,2,ow,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,many,85,1,m,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,3,eh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,How,99,2_3,aw,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,total,80,5,l,93.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,6,s,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,play,96,2,l,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,6,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,play,96,3_4,ey,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,students,0,6,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,4,t,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,3,f,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,2,w,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,83.0,Twenty,83,4,n,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,7_8,th,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,hundred,75,4_5,dr,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,hundred,100,1,hh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,7,s,67.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,and,99,3,d,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,are,58,1_2,aa,58.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,10_11,iy,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,number,99,6,r,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,How,100,1,hh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,This,0,4,s,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,3,n,90.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,It's,78,1,ih,93.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"Ready, go!",89.0,go,99,1,g,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,missing,85,6_7,ng,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,is,85,2,z,85.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,two,96,1,t,92.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,4,n,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,We,38,2,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,hundred,75,1,hh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,and,99,2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,ten,97,3,n,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,are,97,2,r,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,one,95,1,ah,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,here,80,2_3,ir,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,4,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,3,eh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,missing,85,6_7,ng,65.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Great!,95.0,Great,95,5,t,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,number,99,6,r,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,number,90,3,m,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,students,0,"",uh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,8,k,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,missing,46,3_4,s,2.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,The,30,1_2,dh,15.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,White,85,3,ay,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,white,76,3,ay,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,are,61,1,aa,43.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,does,24,2,ah,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,Mrs,79,"",s,91.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,get,98,3,t,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Great!,95.0,Great,95,1,g,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,83.0,Twenty,83,1,t,26.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,9,r,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,missing,85,3_4,s,73.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,five,57,3,v,82.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,numbers,67,4,b,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,5,t,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,56.0,Twenty,56,5,t,88.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,are,97,1,aa,94.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,hundred,75,7,d,69.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,2,w,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,6,ih,23.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,students,76,"",uh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,is,85,1,ih,84.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,hundred,89,6,ax,90.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,students,76,3,y,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,many,96,4,ih,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,number,99,2,ah,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,This,72,3,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,2,w,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,hundred,100,2,ah,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,hundred,75,6,ax,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,get,95,1,g,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,5,t,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,We,53,2,iy,75.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,is,98,1,ih,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,hundred,0,1,hh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,fifteen,0,4,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Great!,95.0,Great,95,2,r,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,ten,0,1,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,9,k,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,3,eh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,8,eh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,are,0,1_2,aa,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,Let's,98,3_4,ts,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,2,ih,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,the,91,3,ih,83.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,1,f,93.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,and,100,1,ae,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,game,89,3,m,70.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,is,97,2,z,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,the,91,1_2,dh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,number,99,3,m,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,fifteen,0,2,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,and,0,2,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,9,v,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,know,99,3,ow,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,3,eh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,4,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,get,98,2,eh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,fifteen,0,5_6,iy,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,5,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,What,80,1,w,58.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,fifteen,0,1,f,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,one,99,"",w,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,8,k,38.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,number,99,5,ax,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,students,76,4,d,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,missing,85,5,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,3,f,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,The,65,1_2,dh,74.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,The,42,1_2,dh,65.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,students,0,4,d,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,5,ih,54.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,walls,86,2,ao,67.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,64.0,wind,64,2,ih,18.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,White,82,3,ay,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,white,58,1,w,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,So,96,1,s,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,white,73,4,t,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,walls,50,3_4,l,35.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,white,84,3,ay,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,walls,70,5,z,58.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,are,71,2,r,88.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,16,98,"",s,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,11,0,"",ih,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,Class,71,3,ae,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,Class,91,4_5,s,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,One,99,1,ah,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,No,93,"",m,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,watch,87.0,watch,87,2,aa,83.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,The,92,1_2,dh,86.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,31.0,wind,31,4,d,10.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,windows,73,1,w,52.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,The,92,3,ax,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,seventy,80.0,seventy,80,2,eh,90.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,96.0,hundred,96,1,hh,89.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,white,0,4,t,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,31.0,wind,31,3,n,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,31.0,wind,31,1,w,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,10,ey,95.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,94.0,No,96,"",ax,83.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,5,ih,34.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,between,0,3,t,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,between,0,5_6,iy,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,Class,0,2,l,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Class,85,4_5,s,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,points,98,2_3,oy,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,match,71,3_4_5,ch,81.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,16,98,"",iy,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,point,100.0,point,100,1,p,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,Class,71,2,l,89.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,White,92,3,ay,89.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,white,81,3,ay,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,The,65,3,ax,56.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,We,78,1,w,56.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,missing,46,2,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,2,w,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,one,100,"",w,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,hundred,89,4_5,dr,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,1,f,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"Ready, go!",89.0,go,99,2,ow,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,many,96,1,m,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,No,93,2,ah,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 11.,69.0,No,100,"",m,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,is,99,1,ih,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,match,0,3_4_5,ch,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,60.0,Congratulations,60,1,k,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,9_10,l,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class Two gets 52 points.,74.0,points,98,5_6,ts,94.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,Two,99,2_3,uw,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Ready, go!",89.0,Ready,82,1,r,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,9,n,93.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,1,ih,88.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,2,n,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,58.0,interesting,58,9,ih,0.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,16,98,"",t,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,One,98,"",w,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,gets,90,3_4,ts,83.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,Class,91,3,aa,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,8,ay,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,61.0,Congratulations,61,15,z,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,basketball,93,2,aa,86.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,between,80,7,n,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,hundred,89,7,d,90.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,hundred,89,3,n,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,hundred,89,6,ax,77.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,hundred,89,1,hh,77.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,hundred,97,2,ah,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,7,n,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,and,0,1,ax,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,6,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,number,100,2,ah,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,and,0,3,d,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,3,eh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,fifteen,0,3,f,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,number,100,5,ax,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,hundred,0,4_5,dr,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,is,98,2,z,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,hundred,0,6,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,hundred,89,3,n,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,there,97,1_2,dh,93.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,5,t,42.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,The,22,3,ax,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,fifty-six,75,5,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,hundred,97,1,hh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,students,0,1,s,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,missing,69,5,ih,70.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,play,96,1,p,90.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,5,ih,94.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,7_8,ey,88.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,and,100,3,d,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,science,62.0,science,62,4,ax,97.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,ninety,76.0,ninety,76,5,t,90.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,2,ax,54.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,56.0,Twenty,56,4,n,81.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,6,ih,91.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,one,100,1,ah,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,9,r,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,This,0,3,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"Ready, go!",89.0,Ready,82,5,ih,88.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,How,100,2_3,aw,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,there,97,3,eh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,hundred,89,2,ah,94.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,hundred,89,7,d,54.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,basketball,97,6,t,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,between,0,1,b,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,basketball,61,7,b,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,85.0,One,98,2,n,97.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,between,0,4,w,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,19.0,One,0,1,ah,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,4,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,four,99,2_3,ao,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,83.0,Twenty,83,6,ih,88.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,6,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,number,100,4,b,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Great!,95.0,Great,95,3_4,ey,86.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,and,0,1,ax,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,8,ih,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,and,0,3,d,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,total,0,3,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,one,92,1,ah,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,is,92,2,z,84.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,hundred,81,7,d,23.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,five,57,1,f,91.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,We,38,1,w,76.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,hundred,81,2,ah,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There is a basketball match between Class One and Class Two.,91.0,Class,95,4_5,s,96.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,missing,69,3_4,s,22.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,know,99,1_2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,number,99,2,ah,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,number,99,5,ax,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,The,42,3,ax,19.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,54,0,"",s,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Class One gets 54 points.,75.0,gets,90,1,g,87.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,on,84,1,aa,91.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,One,98,1,ah,98.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,many,85,4,ih,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,1,f,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,Let's,98,1,l,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,4,n,80.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,56.0,Twenty,56,3,eh,66.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,hundred,75,2,ah,84.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,We,96,1,w,94.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,You,94,1,y,92.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,11,n,27.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,hundred,81,6,ax,62.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,hundred,100,4_5,dr,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,3,eh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,is,98,1,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,students,0,7_8,ts,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,total,80,1,t,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,2,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,87.0,We,78,2,iy,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,is,42,2,z,67.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,game,89,2,ey,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,number,99,4,b,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,83.0,Twenty,83,3,eh,95.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,7,s,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,6,ih,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,We,53,1,w,31.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,number,100,6,r,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,ninety-nine,76,2,ay,85.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,students,76,7_8,ts,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,hundred,89,1,hh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,one,99,1,ah,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,there,97,4,r,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,One,98,"",w,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,One,98,2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,77.0,It's,78,2_3,ts,62.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,and,99,1,ae,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,is,92,1,ih,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,fifteen,99,1,f,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,2,w,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,You,86,1,y,85.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,the,99,1_2,dh,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,5,t,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,2,w,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,It's,61,1,ih,57.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,number,100,1,n,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,four,99,1,f,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,one,0,1,ah,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,one,0,"",w,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,hundred,100,7,d,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,It's,80,1,ih,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,total,0,2,ow,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,fifteen,99,4,t,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,9,v,78.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,You,94,2_3,uh,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,56.0,Twenty,56,6,ih,88.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,There are five numbers here.,78.0,There,79,1_2,dh,77.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's one hundred.,85.0,one,100,2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,89.0,hundred,100,6,ax,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,7,s,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,ninety,76.0,ninety,76,2,ay,96.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,ninety,76.0,ninety,76,3,n,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,forty,96.0,forty,96,3,r,94.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 16.,95.0,16,98,"",k,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,point,100.0,point,100,2_3,oy,100.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,"Come on, Class One!",89.0,Class,71,1,k,0.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,science,97.0,science,97,5,n,100.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,interesting,72.0,interesting,72,8,d,82.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,fifty,98.0,fifty,98,4,t,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,thirty,77.0,thirty,77,5,t,98.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,Congratulations!,72.0,Congratulations,72,4,g,59.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,seventy,80.0,seventy,80,3,v,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,I'm No. 23.,91.0,No,98,"",m,99.0,2026-04-07 18:00:08.576,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,hundred,89,2,ah,94.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,fifty,98.0,fifty,98,3,f,99.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,one hundred,93.0,one,98,"",w,97.0,2026-04-07 18:06:08.964,2026-04-07
+AZUQRzoKasSGAWcCG3wFTG,wind,72.0,wind,72,4,d,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,64.0,wind,64,4,d,95.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,Mr,92,"",ih,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,88.0,likes,99,5,s,98.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,white,58,3,ay,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,are,47,2,r,49.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,56,5,z,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,81,5,z,75.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,Mrs,79,1,m,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,walls,50,3_4,l,65.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,white,76,4,t,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,60.0,white,81,4,t,95.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,white,67,1,w,11.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,Mr,95,"",s,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,Mr White likes white.,51.0,likes,0,1,l,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,windows,73,2,ih,97.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,80.0,does,81,4,z,64.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,66.0,walls,72,2,ao,64.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,54.0,walls,50,2,ao,68.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,walls,86,3_4,l,96.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,windows,73,4,d,100.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,24.0,wind,24,3,n,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wind,64.0,wind,64,3,n,95.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,85.0,walls,86,1,w,99.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,50.0,The,56,3,ax,33.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wall,61.0,wall,61,3_4,l,46.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,So does Mrs White.,57.0,White,85,1,w,58.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,65.0,walls,81,2,ao,81.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The walls are white.,51.0,walls,50,5,z,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,wall,61.0,wall,61,2,ao,42.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,The windows are white.,75.0,windows,73,7,z,0.0,2026-04-09 17:54:06.232,2026-04-09
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,many,85,2,eh,46.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,a,99,1,ax,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Let's play a game.,95.0,game,89,1,g,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,number,90,1,n,49.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,twenty-eight,95,5,t,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,3,f,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,Fifty-six,85,7,ih,85.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,hundred,97,4_5,dr,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,hundred,97,7,d,85.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,The,22,1_2,dh,44.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,86.0,students,76,2,t,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,One,98,1,ah,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,This is one hundred.,72.0,one,100,2,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,79.0,number,99,1,n,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,1,t,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,get,95,2,eh,97.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,hundred,81,3,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-three,95,3,eh,94.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,fifteen,99,2,ih,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,We,96,2,iy,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,the,0,3,ax,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-seven,0,1,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's twenty-eight.,71.0,twenty-eight,83,1,t,33.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,hundred,0,2,ah,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,What is the missing number?,91.0,missing,85,2,ih,93.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,5,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,10_11,iy,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-three,0,1,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,hundred,0,3,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",36.0,twenty-six,0,4,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,one,0,2,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,there,0,3_4_5,ar,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Fifty-six and twenty-eight is…,79.0,is,42,1,ih,17.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"One, two… ninety-nine, one hundred…",93.0,hundred,97,3,n,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,students,0,2,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,missing,46,6_7,ng,23.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,83.0,is,97,1,ih,96.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,missing,46,1,m,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,It's,61,2_3,ts,51.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,there,0,1_2,dh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,The missing number is _______.,72.0,is,98,2,z,98.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,It's fifty-six.,78.0,fifty-six,93,7,ih,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,How many students are there?,41.0,How,99,1,hh,99.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,35.0,ten,0,2,eh,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,total,0,5,l,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,know,8,3,ow,16.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,total,0,1,t,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,You get one hundred and ten.,90.0,get,95,3,t,89.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-six,90,2,w,100.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,We know the total.,11.0,know,8,1_2,n,0.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,"We know four: fifteen, twenty-three, twenty-six and twenty-seven.",89.0,twenty-seven,84,6,ih,89.0,2026-04-08 17:54:06.087,2026-04-08
+AZUQRzoKasSGAWcCG3wFTG,Twenty.,56.0,Twenty,56,1,t,0.0,2026-04-08 17:54:06.087,2026-04-08

@@ -1,0 +1,10 @@
+[project]
+name = "eyyb-hermes-demo"
+version = "0.1.0"
+description = "English-learning self-evolution demo built around Hermes Agent skills, real assessment data, and uv-locked deployment."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = []
+
+[tool.uv]
+package = false
